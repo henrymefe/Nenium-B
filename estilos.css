@@ -103,21 +103,21 @@ color: var(--gray10);
 }
 
 h1 {
-  font-size: 60px;
-  margin-block-start: 64px;
+  font-size: 24px;
+  margin-block-start: 40px;
   margin-block-end: 16px;
   font-weight: normal;
   color: var(--gray10);
 }
 
 h2{
-  font-size: 32px;
+  font-size: 24px;
   font-weight: normal;
   color: var(--gray10);
 }
 
 h3{
-font-size: 24px;
+font-size: 20px;
 font-weight: normal;
 position: sticky;
 top: 0;
@@ -137,15 +137,15 @@ p {
 }
 /*                                            SECCION UNO ELEMENTOS */
 .subtitle__seccio_uno{
-margin-block-start: 64px;
-margin-block-end: 40px;
+margin-block-start: 40px;
+margin-block-end: 24px;
 
 }
 
 .title__parrafo
 {
 margin-block-start: 16px;
-margin-block-end: 64px;
+margin-block-end: 40px;
 }
 
 .parrafo__seccion_uno
@@ -181,8 +181,8 @@ margin-block-end: 24px;
 }
 
 .h2_seccion_tres{
-margin-block-start: 156px;
-margin-block-end: 40px;
+margin-block-start: 40px;
+margin-block-end: 24px;
 
 }
 
@@ -220,7 +220,7 @@ blockquote{
 /* padding-left: 46px; */
 padding-block: 24px;
 padding-inline: 24px;
-font-size: 24px;
+font-size: 17px;
 line-height: 32px;
 border-radius: 8px;
 
@@ -412,6 +412,25 @@ header details{
   display: none;
 }
 
+footer{
+background: white;
+block-size: 80px;
+/* color: red; */
+display: flex;
+  justify-content: center;
+  position: relative;
+  margin-block-start: 40px;
+}
+
+footer p{
+  color: black;
+}
+
+.img-socia-media{
+  position: absolute;
+  bottom: 10px;
+}
+
 /* SI CUMPLE LA CONDICION DE SIERTO ANCHO MINIMO "min-width" VA PASAR
 LO QUE ESTE DENTRO DE LAS LLAVES*/
 /* if mind-width > {ejecutar llaves}*/
@@ -423,6 +442,40 @@ LO QUE ESTE DENTRO DE LAS LLAVES*/
   /* background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent), url(./images/pattern.png); */
   }
 
+  h1 {
+    font-size: 60px;
+    margin-block-start: 64px;
+    margin-block-end: 16px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
+  h3{
+    font-size: 32px;
+  }
+
+  blockquote{
+    font-size: 24px;
+  }
+
+  .title__parrafo
+  {
+  margin-block-end: 64px;
+  }
+
+  .subtitle__seccio_uno{
+  margin-block-start: 64px;
+  margin-block-end: 40px;
+
+  }
+
+  .h2_seccion_tres{
+  margin-block-start: 156px;
+  margin-block-end: 40px;
+
+  }
 
   header
   {
